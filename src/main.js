@@ -8,6 +8,8 @@
 */
 
 // // Step 0 - require / import the carFn file
+// << How to require it>> :
+var Car = require ('./carFn') // this returns object
 
 // // Step 1 - Checking all properties
 // console.log the `Car` object, does it returns all the properties requested?
@@ -22,7 +24,7 @@
 
 
 // Phase II
-
+var Car = require('./Car') //this returns a function
 // // Repeat the same steps to Phase I, but this time require the the class file
 // // instead of the the `carFn` file
 
